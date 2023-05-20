@@ -1,0 +1,46 @@
+mat-card-title {
+ padding-left: 600px;
+ padding-bottom: 50px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+mat-icon {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  margin-right: 10px;
+}
+
+.task-input button {
+  margin-left: 20px;
+}
